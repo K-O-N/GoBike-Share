@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: dbt_project_dataset
+    description: The source data for this project
+    database: dbtproject-442421
+    schema: dbt_project_dataset
+    tables:
+      - name: location
+        columns:
+          - name: location_id
+            description: Primary key of the table
+            tests:
+              - unique
+              - not_null
+
+      - name: stolen_vehicles
+        columns:
+          - name: vehicle_id
+            description: Primary key of the table
+            tests:
+              - unique
+
+
+
