@@ -21,5 +21,15 @@ sources:
             tests:
               - unique
 
+models:
+  - name: merged
+    description: joins data from the two data sources 
+
+  - name: date_theft
+    description: give information on the date of a theft and the vehicle model stolen
+
+  - name: location_theft
+    description: give information on total theft per region
+    
 
 
