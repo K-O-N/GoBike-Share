@@ -31,5 +31,7 @@ models:
   - name: location_theft
     description: give information on total theft per region
     
-
+seeds:
+  - name: make_details 
+    description: contains unique details of car models
 
